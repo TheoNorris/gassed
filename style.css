@@ -1,0 +1,49 @@
+:root {
+  --font-color-dark: #000;
+  --gassed-margin: 0 30px;
+  --gassed-background: linear-gradient(
+    135deg,
+    rgb(6, 147, 227) 0%,
+    rgb(255, 119, 0) 49%,
+    rgb(155, 81, 224) 100%
+  );
+  --gassed-primary-color: rgb(6, 147, 227);
+  --gassed-secondary-color: rgb(255, 119, 0);
+  --gassed-third-color: rgb(155, 81, 224);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+div.nav-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: var(--gassed-margin);
+  padding: 10px 0;
+}
+
+header .column {
+  width: 32%;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+}
+
+.menu-item {
+  margin: 0 15px;
+}
+
+header .logo {
+  width: 20%;
+}
+
+.column h1 {
+  text-align: center;
+}
