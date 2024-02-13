@@ -1,7 +1,6 @@
 <?php
 
 require_once('settings.php');
-require_once('shortcodes.php');
 require_once('vite.php');
 
 function mytheme_enqueue(){

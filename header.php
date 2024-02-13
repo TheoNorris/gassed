@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?=get_option('blogname');?></title>
+    <script
+      src="https://kit.fontawesome.com/f14b07e4b8.js"
+      crossorigin="anonymous"
+    ></script>
 
     <?php wp_head();?>
 </head>
@@ -19,18 +23,17 @@
             </a>
         </div>
         <div class="column">
-            <h1>GASSED</h1>
+            <a href="/"><h1>GASSED.SE</h1></a>
         </div>
         <div class="column">
-            <?php 
-            $menu = array(
-                'theme_location' => 'main_menu',
-                'menu_id' => 'primary-menu',
-                'container' => 'nav',
-                'container_class' => 'menu'
-            );
-            
-            wp_nav_menu($menu); ?>
+        <a class="search-button" href="">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        </a>
+        <div class="search-holder">
+        <?php get_product_search_form(); ?>
+        </div>
+        <a href=""><i class="fa-solid fa-user"></i></a>
+        <a href=""><i class="fa-solid fa-bag-shopping"></i></a>
            
         </div>
         </div>

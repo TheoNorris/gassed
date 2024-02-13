@@ -1,0 +1,65 @@
+header {
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: $gassed-margin;
+    padding: 10px 0;
+
+    .column {
+      width: 32%;
+
+      &:last-of-type {
+        text-align: right;
+      }
+
+      a .logo {
+        width: 18%;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+
+      a h1 {
+        text-align: center;
+        font-size: 2.5em;
+
+        &:hover {
+          color: $gassed-secondary-color;
+        }
+      }
+
+      a i {
+        font-size: 1.3em;
+        margin: 0 10px;
+
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+
+      .search-holder {
+        position: absolute;
+        top: 15%;
+        display: none;
+      }
+      .search-holder.active {
+        display: block;
+      }
+
+      .menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+
+        ul {
+          .menu-item {
+            margin: 0 15px;
+          }
+        }
+      }
+    }
+  }
+}
