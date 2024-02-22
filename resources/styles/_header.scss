@@ -5,7 +5,7 @@ header {
     justify-content: space-between;
     align-items: center;
     margin: $gassed-margin;
-    padding: 10px 0;
+    padding: 30px 0;
 
     .column {
       width: 32%;
@@ -69,7 +69,7 @@ header {
             text-transform: uppercase;
             letter-spacing: 1px;
             background-color: $gassed-primary-color;
-            color: #fff;
+            color: $colour-white;
             font-weight: 600;
             border: 0;
             box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
@@ -90,6 +90,26 @@ header {
             margin: 0 15px;
           }
         }
+      }
+    }
+  }
+  .category-banner {
+    background: $gassed-background;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-evenly;
+    text-transform: uppercase;
+
+    a {
+      &:hover {
+        transform: scale(1.1);
+      }
+      h2 {
+        color: $colour-white;
+        font-weight: 600;
+        letter-spacing: 1px;
       }
     }
   }

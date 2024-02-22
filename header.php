@@ -37,5 +37,9 @@
            
         </div>
         </div>
-        <div class="category-banner"></div>
+        <div class="category-banner">
+            <a href=""><h2>Jewellery</h2></a>
+            <a href=""><h2>Clothes</h2></a>
+            <a href=""><h2>Perfume</h2></a>
+        </div>
     </header>
