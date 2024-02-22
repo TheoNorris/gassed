@@ -37,4 +37,5 @@
            
         </div>
         </div>
+        <div class="category-banner"></div>
     </header>

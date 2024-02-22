@@ -2,7 +2,6 @@
 
 require_once('settings.php');
 require_once('vite.php');
-require_once('ajax.php'); 
 
 function mytheme_enqueue(){
     $theme_directory = get_template_directory_uri();
