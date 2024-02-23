@@ -95,7 +95,7 @@ header {
   }
   .category-banner {
     background: $gassed-background;
-    width: 100%;
+    max-width: 100%;
     display: flex;
     flex-direction: row;
     padding: 30px;
@@ -103,6 +103,7 @@ header {
     text-transform: uppercase;
 
     a {
+      transition: transform 0.3s ease;
       &:hover {
         transform: scale(1.1);
       }

@@ -13,7 +13,10 @@ add_action('wp_enqueue_scripts', 'mytheme_enqueue');
 
 function mytheme_init(){
     $menus = array(
-        'main_menu' => 'main_menu'
+        'main_menu' => 'main_menu',
+        'products' => 'products',
+        'company' => 'company',
+        'profile' => 'profile'
     );
 register_nav_menus($menus);
 }
